@@ -18,7 +18,7 @@ web:
         - mysql
 
 web2:
-    image: leowgweb/apache-php-7.1
+    image: jcwgweb/apache-php-7.1
     restart: always
     container_name: apache-php-7.1
     ports:
